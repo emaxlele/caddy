@@ -2,7 +2,7 @@ name: Sync Fork with Upstream
 
 on:
   schedule:
-    - cron: '0 6 */13 * *'  # ogni 13 giorni alle 06:00 UTC
+    - cron: '0 6 1,15 * *'  # ogni 13 giorni alle 06:00 UTC
   workflow_dispatch:               # bottone manuale disponibile
 
 jobs:
